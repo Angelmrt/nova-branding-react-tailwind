@@ -1,5 +1,7 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import Button from "../assets/components/buttonComponent";
+import Input from "../assets/components/inputComponent";
+
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -9,5 +11,15 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <div className="flex flex-col space-y-4">
+    <h1 className="">Nova Branding Components</h1>
+    <div className="">
+      <Button text="Primary" />
+      <Input placeholder="Escribe aquí..." />
+      </div>
+  </div>
+  
+  )
+ 
 }

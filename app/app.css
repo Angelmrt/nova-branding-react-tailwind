@@ -1,8 +1,24 @@
 @import "tailwindcss";
 
+
+
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --colorprincipal: rgba(229, 180, 34, 1);
+  --colorsecundario: rgba(255, 255, 255, 1);
+  --fondoheader: rgba(33, 33, 33, 1);
+  --fondopartners: rgba(65, 65, 65, 1);
+  --fondoproyectos: rgba(98, 98, 98, 1);
+  --colorborde: rgba(0, 0, 0, 1);
+  --colorform: rgba(162, 162, 162, 1);
+  --soporte: rgba(249, 234, 71, 1);
+  
+  --font-size-titulo: 64px;
+  --font-size-subtitulo: 36px;
+  --font-size-titulo2: 48px;
+  --font-size-header-footer: 20px;
+  
+  --fuenteprincipal: "Alfa Slab One", sans-serif;
+  --fuenteheader: "Jua", sans-serif;
 }
 
 html,
@@ -13,3 +29,4 @@ body {
     color-scheme: dark;
   }
 }
+
