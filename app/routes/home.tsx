@@ -2,6 +2,8 @@ import type { Route } from "./+types/home";
 import Button from "../assets/components/buttonComponent";
 import Input from "../assets/components/inputComponent";
 import SearchBAr from "../assets/components/searchBarComponent";
+import Navbar from "~/assets/components/navBarComponent";
+import Header from "~/assets/components/headerComponent";
 
 
 export function meta({}: Route.MetaArgs) {
@@ -21,6 +23,10 @@ export default function Home() {
       <Input placeholder="Escribe aquí..." />
       <br /><br />
       <SearchBAr />
+      <br /><br />
+      <Navbar />
+      <br /><br />
+      <Header />
       </div>
   </div>
   
