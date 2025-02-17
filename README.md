@@ -2,8 +2,8 @@
 
   
 
-- Figma :[Click here](https://react.dev/)  
-- Despliegue en vercel [Click here](https://tailwindcss.com/)  
+- Figma :[Click here]([https://react.dev/](https://www.figma.com/design/9YoLjbviKsYYqjc4QphOSt/PR%C3%81CTICA-4.1?node-id=0-1&t=DTFAPYoYfM5td1Vo-1))  
+- Despliegue en vercel [Click here](https://nova-branding-react-tailwind.vercel.app/)  
 
 # Componentes de UI Basados en @theme de Figma  
 
