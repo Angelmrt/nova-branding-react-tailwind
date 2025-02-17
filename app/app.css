@@ -3,14 +3,14 @@
 
 
 @theme {
-  --colorprincipal: rgba(229, 180, 34, 1);
-  --colorsecundario: rgba(255, 255, 255, 1);
-  --fondoheader: rgba(33, 33, 33, 1);
-  --fondopartners: rgba(65, 65, 65, 1);
-  --fondoproyectos: rgba(98, 98, 98, 1);
-  --colorborde: rgba(0, 0, 0, 1);
-  --colorform: rgba(162, 162, 162, 1);
-  --soporte: rgba(249, 234, 71, 1);
+  --color-principal: rgba(229, 180, 34, 1);
+  --color-secundario: rgba(255, 255, 255, 1);
+  --color-fondoheader: rgba(33, 33, 33, 1);
+  --color-fondopartners: rgba(65, 65, 65, 1);
+  --color-fondoproyectos: rgba(98, 98, 98, 1);
+  --color-borde: rgba(0, 0, 0, 1);
+  --color-form: rgba(162, 162, 162, 1);
+  --color-soporte: rgba(249, 234, 71, 1);
   
   --font-size-titulo: 64px;
   --font-size-subtitulo: 36px;
