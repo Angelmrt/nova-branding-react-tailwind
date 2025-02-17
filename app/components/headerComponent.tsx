@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "./navBarComponent";
 import SearchBar from "./searchBarComponent";
-
+import logo from "../assets/img/logo.png";
 const Header: React.FC = () => {
   return (
     <header className="bg-black py-4 px-6 flex items-center justify-between">
       <div className="flex-shrink-0">
-        <img src="/logo.png" alt="Logo" className="w-12 h-12 rounded-full" />
+        <img src={logo} alt="Logo" className="w-12 h-12 rounded-full" />
       </div>
 
       {/* Contenedor del SearchBar sin el fondo blanco */}
