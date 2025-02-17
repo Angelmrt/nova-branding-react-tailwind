@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./navBarComponent";
 import SearchBar from "./searchBarComponent";
 import logo from "../assets/img/logo.png";
+
 const Header: React.FC = () => {
   return (
     <header className="bg-black py-4 px-6 flex items-center justify-between">
