@@ -1,9 +1,9 @@
 import type { Route } from "./+types/home";
-import Button from "../assets/components/buttonComponent";
-import Input from "../assets/components/inputComponent";
-import SearchBAr from "../assets/components/searchBarComponent";
-import Navbar from "~/assets/components/navBarComponent";
-import Header from "~/assets/components/headerComponent";
+import Button from "../components/buttonComponent";
+import Input from "../components/inputComponent";
+import SearchBAr from "../components/searchBarComponent";
+import Navbar from "~/components/navBarComponent";
+import Header from "~/components/headerComponent";
 
 
 export function meta({}: Route.MetaArgs) {
