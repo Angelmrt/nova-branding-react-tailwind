@@ -7,7 +7,7 @@
 
 # Componentes de UI Basados en @theme de Figma  
 
-He creado varios componentes reutilizables para la interfaz de usuario, siguiendo el diseño definido en **@theme** extraído de **Figma**.  
+Hemos creado varios componentes reutilizables para la interfaz de usuario, siguiendo el diseño definido en **@theme** extraído de **Figma**.  
 
 ## 📌 Botón (`ButtonComponent`)  
 Este componente utiliza las variables de **@theme** para mantener la coherencia de estilos. Soporta variantes como primario y hovered.  
