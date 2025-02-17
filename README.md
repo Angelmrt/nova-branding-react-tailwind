@@ -1,100 +1,32 @@
-# Welcome to React Router!
+# Enlaces 
 
-A modern, production-ready template for building full-stack React applications using React Router.
+  
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+- Figma :[Click here](https://react.dev/)  
+- Despliegue en vercel [Click here](https://tailwindcss.com/)  
 
-## Features
+# Componentes de UI Basados en @theme de Figma  
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+He creado varios componentes reutilizables para la interfaz de usuario, siguiendo el diseño definido en **@theme** extraído de **Figma**.  
 
-## Getting Started
+## 📌 Botón (`ButtonComponent`)  
+Este componente utiliza las variables de **@theme** para mantener la coherencia de estilos. Soporta variantes como primario y hovered.  
 
-### Installation
+## ✉️ Input para Contact Form (`ContactInput`)  
+Un campo de entrada estilizado específicamente para formularios de contacto, con validación y accesibilidad mejorada.  
 
-Install the dependencies:
+## 🔍 Search Bar (`SearchBar`)  
+Un campo de búsqueda que incorpora el **MagnifyIcon** de `react-icons`, permitiendo una experiencia fluida para el usuario.  
 
-```bash
-npm install
-```
+## 📌 Navbar (`NavbarComponent`)  
+Un componente de barra de navegación adaptable, con soporte para enlaces, menús desplegables y estilos dinámicos según la temática definida en Figma.  
 
-### Development
+## 🏠 Header (`HeaderComponent`)  
+Este componente unifica:  
+- **El logotipo**,  
+- **El Search Bar**,  
+- **El NavbarComponent**.  
+Proporciona una estructura limpia y organizada para la cabecera de la aplicación.  
 
-Start the development server with HMR:
+Estos componentes garantizan una interfaz moderna, responsiva y alineada con el diseño de **Figma**. 🚀  
 
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-This template includes three Dockerfiles optimized for different package managers:
-
-- `Dockerfile` - for npm
-- `Dockerfile.pnpm` - for pnpm
-- `Dockerfile.bun` - for bun
-
-To build and run using Docker:
-
-```bash
-# For npm
-docker build -t my-app .
-
-# For pnpm
-docker build -f Dockerfile.pnpm -t my-app .
-
-# For bun
-docker build -f Dockerfile.bun -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
